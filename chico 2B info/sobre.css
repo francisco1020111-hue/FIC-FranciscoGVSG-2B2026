@@ -1,0 +1,21 @@
+body{
+    background-color:gray
+}
+header {
+    font-size: 15px;
+  background-color: rgb(114, 136, 64);
+  padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 30px;
+  }
+  h1{
+    font-size: 40px;
+    text-align: center;
+    color: green;
+    background-color: cornsilk; }
