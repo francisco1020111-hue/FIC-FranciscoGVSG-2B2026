@@ -1,0 +1,45 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-image: url(backgroundcontato.jpg);
+    background-size: cover;
+}
+h1 {
+text-align: center;
+color: green;
+background-color: cornsilk;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 30px;
+  }
+  li{
+    a:hover{
+      color: rgb(230, 223, 240);
+      }
+    a{text-decoration: none;
+    list-style-type: none;}
+    }
+li:hover{
+  background-color: aquamarine;
+}
+button:hover {
+    background-color: chartreuse;
+}
+textarea {
+    resize: none;
+    width: 250px;
+  height: 100px;
+}
+header {
+    font-size: 15px;
+  background-color: rgb(114, 136, 64);
+  padding-top: 15px;
+    padding-bottom: 15px;
+}
