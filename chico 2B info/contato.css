@@ -44,5 +44,22 @@ header {
     padding-bottom: 15px;
 }
 .forms{
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Inform{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(115, 175, 75)
+}
+div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+}
+.tamanhoinput{
+  width: 500px;
 }

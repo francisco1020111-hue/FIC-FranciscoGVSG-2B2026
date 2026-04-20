@@ -1,47 +1,87 @@
-*{
-  margin: 0; 
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body{
-  background-color: gray;
-}
-header {
-    font-size: 15px;
-  background-color: rgb(114, 136, 64);
-  padding-top: 15px;
-    padding-bottom: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-h1 {
-text-align: center;
-color: green;
-background-color: cornsilk;
+.areainfo {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url(areas-informatica.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: black;
 }
-ul{
+
+.areainfo h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 -50% 0 0;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+}
+
+.areainfo h2 {
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  margin: 0 -50% 0 0;
+  transform: translate(10%, 100%);
+  font-size: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  background-color: rgb(38, 95, 73);
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
   font-size: 30px;
-  }
-  li{
-    a:hover{
-      color: rgb(230, 223, 240);
-      }
-    a{text-decoration: none;
-    list-style-type: none;}
-    }
-li:hover{
-  background-color: aquamarine;
 }
 
-img {
-  border: 4px solid greenyellow;
-  border-radius: 35%;
-  height: 450px;
+li {
+  a:hover {
+    color: rgb(230, 223, 240);
   }
-  div{
-    display: flex;
-    justify-content: center;
+
+  a {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
   }
+
+  margin-right: 20px;
+}
+
+li:hover {
+  color: greenyellow;
+}
+
+.paz {
+  width: 42px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  border: 2px solid rgb(70, 70, 70);
+  ;
+  border-radius: 50%;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+nav {
+  align-self: flex-end;
+}
+
+a {}
