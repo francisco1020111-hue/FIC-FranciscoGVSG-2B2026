@@ -4,32 +4,30 @@
   box-sizing: border-box;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
 .areainfo {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-image: url(areas-informatica.jpg);
-  background-size: 100% 100%;
+  img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  background-image: url(kkk.jpeg);
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
-  color: black;
+} color: white;
 }
-
 .areainfo h1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: 0 -50% 0 0;
   transform: translate(-50%, -50%);
   font-size: 75px;
 }
 
 .areainfo h2 {
   position: absolute;
-  top: 50%;
-  left: 36%;
-  margin: 0 -50% 0 0;
-  transform: translate(10%, 100%);
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 40px;
 }
 
@@ -71,10 +69,10 @@ li:hover {
 
 .paz {
   width: 42px;
+  height: 42px;
   overflow-clip-margin: content-box;
   overflow: clip;
   border: 2px solid rgb(70, 70, 70);
-  ;
   border-radius: 50%;
   align-self: flex-start;
   margin-left: 20px;
