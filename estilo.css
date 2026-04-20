@@ -84,4 +84,10 @@ nav {
   align-self: flex-end;
 }
 
-a {}
+.p1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  background-color: cornsilk;
+  font-style: oblique;
+}
